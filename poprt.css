@@ -1,0 +1,81 @@
+color: #fc5c7d; /* Bright pink for section titles */
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4b0082; /* Deep indigo underline */
+    padding-bottom: 10px;
+}
+
+/* Button Styles */
+.download-button {
+    background-color: #6a82fb; /* Lavender button color */
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 30px;
+    display: block; /* Places button directly below the heading */
+    margin: 10px auto 0; /* Keeps button centered and close */
+    width: fit-content; /* Button width fits text */
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-button:hover {
+    background-color: #fc5c7d; /* Bright pink on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Skills Container Styles */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+}
+
+.technical-skills, .soft-skills {
+    flex: 1;
+    background: #f9f9f9; /* Light background for skill boxes */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.technical-skills h3, .soft-skills h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6a82fb; /* Lavender underline */
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.technical-skills ul, .soft-skills ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.technical-skills li, .soft-skills li {
+    background: #eef2ff; /* Light background for list items */
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 1.2rem 0;
+    background-color: #222; /* Dark footer background */
+    color: #fff;
+    font-size: 1.2rem;
+}
+.section-divider {
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Gradient matching the theme */
+    margin: 40px auto; /* Center the divider */
+    border-radius: 5px; /* Rounded edges */
+}
